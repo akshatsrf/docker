@@ -10,4 +10,4 @@ async def root():
     choice = random.randint(0,len(movies))
     #Yaha change kara hai
     # return {"Try this game":Recommanded_Games[choice]}
-    return {"Try this game":movies[choice]}
+    return {"Try this movie":movies[choice]}
